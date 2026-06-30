@@ -1,0 +1,6 @@
+{
+  "name": "DeadlineAI",
+  "description": "DeadlineAI is an AI Chief of Staff that proactively analyzes workloads, predicts risks, and rescues users from impossible schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
