@@ -1,20 +1,428 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🚀 DeadlineAI
+
+### *The Last-Minute Life Saver — Your AI Chief of Staff for Academic Productivity*
+
+<img src="https://img.shields.io/badge/Google%20Cloud-Cloud%20Run-blue?logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google-Gemini%20API-4285F4?logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-Firestore-FFCA28?logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Live-success"/>
+
+---
+
+### 🏆 Google AI Hackathon Project
+
+**AI-powered academic productivity assistant that intelligently organizes schedules, predicts workload risks, prioritizes tasks, and helps students never miss important deadlines.**
+
+🌐 **Live Demo**
+
+## https://deadlineai-1031253424180.us-west1.run.app/
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+# 📖 Table of Contents
 
-View your app in AI Studio: https://ai.studio/apps/206028bc-20c4-4268-8508-6ffd0598e20a
+- Overview
+- Problem Statement
+- Features
+- AI Workflow
+- System Architecture
+- Tech Stack
+- Google Technologies
+- Project Modules
+- Screenshots
+- Installation
+- Deployment
+- Future Scope
+- Developer
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+# 📌 Overview
 
+DeadlineAI is an intelligent academic productivity platform built using **Google Gemini AI**.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Instead of acting like a traditional to-do application, DeadlineAI functions as an **AI Chief of Staff** that continuously understands the student's workload, predicts scheduling risks, analyzes upcoming deadlines, recommends optimized study plans, and assists users throughout their academic journey.
+
+The platform combines modern AI with an intuitive productivity dashboard to transform how students plan and complete their work.
+
+---
+
+# 🎯 Problem Statement
+
+Students commonly face challenges such as:
+
+- 📚 Managing multiple assignments simultaneously
+- ⏰ Missing important deadlines
+- 😓 Academic stress due to poor planning
+- 📅 Inefficient scheduling
+- 📈 Difficulty prioritizing tasks
+- ⚠️ Lack of intelligent productivity tools
+
+DeadlineAI addresses these challenges through AI-driven scheduling, intelligent planning, predictive workload analysis, and proactive reminders.
+
+---
+
+# ✨ Core Features
+
+## 🤖 AI Schedule Ingestion
+
+Convert natural language directly into structured academic tasks.
+
+Example:
+
+> Complete my DBMS assignment tomorrow evening and prepare for ML quiz on Friday.
+
+Gemini automatically extracts:
+
+- Task title
+- Due date
+- Deadline
+- Category
+- Priority
+
+---
+
+## 📥 AI Inbox
+
+Transform plain English into organized academic schedules.
+
+Features include:
+
+- Natural language understanding
+- Automatic deadline extraction
+- Intelligent categorization
+- AI-powered task creation
+
+---
+
+## 📊 Intelligent Dashboard
+
+The dashboard dynamically visualizes your academic health.
+
+It provides:
+
+- Schedule Health
+- Completion Probability
+- Completion Rate
+- Active Tasks
+- Critical Alerts
+- Current Workload
+- AI Recommendations
+
+---
+
+## 🚨 AI Rescue Protocol
+
+The Rescue Protocol continuously monitors active tasks and detects scheduling conflicts.
+
+It generates:
+
+- AI Rescue Plans
+- Workload Analysis
+- Smart Prioritization
+- Conflict Detection
+- Suggested Recovery Strategies
+
+---
+
+## ⏳ AI Time Machine
+
+Time Machine predicts whether your current workload can realistically be completed before deadlines.
+
+It estimates:
+
+- Success Probability
+- Schedule Risk
+- Deadline Pressure
+- Workload Forecast
+
+---
+
+## 💬 AI Chat
+
+Students can interact naturally with Gemini.
+
+Example prompts:
+
+- What should I complete first?
+- Can I finish my assignments before Friday?
+- Help me organize today's work.
+- Which deadline is most critical?
+
+---
+
+## 🎯 Focus Mode
+
+Built-in productivity workspace featuring:
+
+- Focus Timer
+- Study Sessions
+- Productivity Tracking
+- Session History
+
+---
+
+## 🔔 Smart Reminder Engine
+
+DeadlineAI continuously monitors upcoming deadlines.
+
+As deadlines approach, it automatically generates:
+
+- Browser Notifications
+- AI-generated Reminder Messages
+- Alert Sounds
+- Critical Task Warnings
+
+The reminder engine intelligently avoids duplicate notifications while ensuring important deadlines receive timely alerts.
+
+---
+
+## 📈 Analytics Dashboard
+
+Provides productivity insights including:
+
+- Completion Rate
+- Schedule Risk
+- Task Distribution
+- Productivity Statistics
+- Workload Overview
+
+---
+
+## 📅 Google Calendar Integration
+
+Synchronize tasks with Google Calendar for seamless schedule management.
+
+---
+
+## 👤 Smart Guest Mode
+
+Users can instantly use DeadlineAI without registration.
+
+Each Guest Session:
+
+- Generates a unique Guest ID
+- Preserves tasks
+- Saves settings
+- Stores AI history
+- Maintains focus sessions
+- Persists data across refreshes
+
+---
+
+# 🧠 AI Workflow
+
+```text
+Natural Language Input
+          │
+          ▼
+   Gemini AI Processing
+          │
+          ▼
+Deadline Extraction
+Priority Analysis
+Task Categorization
+          │
+          ▼
+Task Generation
+          │
+          ▼
+Dashboard
+Analytics
+Reminders
+Rescue Plans
+Time Machine
+AI Chat
+```
+
+---
+
+# 🏗 System Architecture
+
+```text
+                         User
+                           │
+                           ▼
+                React + TypeScript Frontend
+                           │
+      ┌────────────────────┼────────────────────┐
+      ▼                    ▼                    ▼
+ Google Gemini API    Firebase Firestore   Local Storage
+      │                    │                    │
+      ▼                    ▼                    ▼
+ AI Intelligence      Persistent Data    Guest Sessions
+```
+
+---
+
+# ⚙ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React, TypeScript, Vite |
+| Backend | Node.js, Express |
+| Database | Firebase Firestore |
+| Authentication | Google Authentication, Guest Mode |
+| AI | Google Gemini API |
+| Deployment | Google Cloud Run |
+| IDE | Google AI Studio |
+
+---
+
+# ☁ Google Technologies Used
+
+✅ Google AI Studio
+
+✅ Gemini API
+
+✅ Google Cloud Run
+
+✅ Firebase Firestore
+
+✅ Firebase Authentication
+
+✅ Google Calendar API
+
+---
+
+# 📂 Project Modules
+
+- 🏠 Dashboard
+- 📥 AI Inbox
+- 🎯 Focus Mode
+- 🚨 Rescue Protocol
+- ⏳ Time Machine
+- 💬 AI Chat
+- 📈 Analytics
+- ⚙ Settings
+- 📅 Calendar Integration
+
+---
+
+# 📸 Application Screenshots
+
+> Replace these with screenshots before final submission.
+
+| Module | Screenshot |
+|----------|------------|
+| Dashboard | *(Add Screenshot)* |
+| AI Inbox | *(Add Screenshot)* |
+| Rescue Protocol | *(Add Screenshot)* |
+| Time Machine | *(Add Screenshot)* |
+| AI Chat | *(Add Screenshot)* |
+| Analytics | *(Add Screenshot)* |
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Asmita0817/DeadlineAI.git
+```
+
+Navigate to the project
+
+```bash
+cd DeadlineAI
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌍 Live Deployment
+
+The application is deployed on **Google Cloud Run**.
+
+### Live URL
+
+https://deadlineai-1031253424180.us-west1.run.app/
+
+---
+
+# 📁 Project Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+├── context/
+├── layouts/
+├── lib/
+├── pages/
+├── services/
+├── utils/
+│
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+# 🔮 Future Scope
+
+Potential future enhancements include:
+
+- 📱 Mobile Application
+- 🎤 Voice Assistant
+- 📧 Email Notifications
+- 🤝 Collaborative Study Groups
+- 🏫 LMS Integration
+- 📚 AI Study Planner
+- 🌙 Offline Support
+- 📅 Automatic Timetable Generation
+
+---
+
+# 👩‍💻 Developer
+
+## Asmita Mahajan
+
+**Computer Science & Engineering**
+
+Google AI Hackathon 2026
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the technologies that powered this project:
+
+- Google AI Studio
+- Google Gemini API
+- Google Cloud Run
+- Firebase
+- React
+- TypeScript
+- Vite
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, consider giving it a Star!
+
+Made with ❤️ using Google Gemini & Google Cloud
+
+</div>
