@@ -385,7 +385,27 @@ src/
 ```
 
 ---
+# Firebase Configuration
 
+For security reasons, the original Firebase configuration file has not been included in this repository.
+
+If you wish to run the project locally:
+
+1. Create your own Firebase project.
+2. Generate your Firebase Web Configuration.
+3. Rename
+
+firebase-applet-config.example.json
+
+to
+
+firebase-applet-config.json
+
+4. Replace the placeholder values with your own Firebase credentials.
+
+The deployed production application is fully functional and available here:
+
+🔗 https://deadlineai-1031253424180.us-west1.run.app/
 # 🔮 Future Scope
 
 Potential future enhancements include:
