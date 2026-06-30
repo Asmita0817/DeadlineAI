@@ -312,12 +312,18 @@ AI Chat
 
 | Module | Screenshot |
 |----------|------------|
-| Dashboard | *(Add Screenshot)* |
-| AI Inbox | *(Add Screenshot)* |
-| Rescue Protocol | *(Add Screenshot)* |
-| Time Machine | *(Add Screenshot)* |
-| AI Chat | *(Add Screenshot)* |
-| Analytics | *(Add Screenshot)* |
+| Dashboard | *<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d2483ec-015a-4d4f-bb5c-69273fa1a85a" />
+* |
+| AI Inbox | * <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7589e378-508c-44b5-8bea-6c22eb128fe1" />
+* |
+| Rescue Protocol | *<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a33db6c2-2504-4b2d-8801-1ab75ca9494b" />
+* |
+| Time Machine | *<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bfb343e3-d7cb-4936-bc88-6ea324f5a34f" />
+* |
+| AI Chat | *<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cbc69e27-ff30-4bb0-8ef0-f126c6a62adc" />
+* |
+| Analytics | *<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ffaa6cb-854b-426b-81b4-d04ab78a95af" />
+* |
 
 ---
 
